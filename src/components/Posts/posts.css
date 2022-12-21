@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: solid 0.1rem silver;
+  border-bottom: solid 0.1rem rgba(192, 192, 192, 0.545);
   gap: 0.2rem;
   padding-left: 1rem;
 }
@@ -78,14 +78,14 @@ span {
 
 .post-media {
   width: 30em;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .comment-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: solid 0.1rem silver;
+  border-top: solid 0.1rem rgba(192, 192, 192, 0.545);
   padding-left: 1rem;
 }
 
