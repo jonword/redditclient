@@ -21,7 +21,7 @@ const Navbar = () => {
       <header className="header">
         <div className="logo">
           <FaReddit className="logo-icon" />
-          <p>
+          <p className="reddit">
             R<span>ea</span>ddit
           </p>
         </div>

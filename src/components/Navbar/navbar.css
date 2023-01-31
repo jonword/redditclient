@@ -13,6 +13,10 @@ header {
   background-color: white;
 }
 
+.reddit {
+  font-size: 1.5rem;
+}
+
 header span {
   color: #407483;
 }

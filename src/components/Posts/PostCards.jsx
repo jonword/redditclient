@@ -45,6 +45,18 @@ export const PostCards = () => {
               ) : (
                 ""
               )}
+              {post.post_hint === "hosted:video" ? (
+                <div>
+                  <video controls className="post-video">
+                    <source
+                      src={post.media.reddit_video.fallback_url}
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              ) : (
+                ""
+              )}
             </div>
             <div className="comment-container">
               <div className="comment-icon">
