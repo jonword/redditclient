@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchTerm, fetchSearchResults } from "../Posts/postsSlice";
 import { FaReddit } from "react-icons/fa";
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="logo">
           <FaReddit className="logo-icon" />
           <p className="reddit">
-            R<span>ea</span>ddit
+            Reddit-<span>Lite</span>
           </p>
         </div>
         <form className="search" onSubmit={onHandleSubmit}>
