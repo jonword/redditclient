@@ -77,8 +77,12 @@ span {
 }
 
 .post-media {
-  width: 30em;
+  width: 100%;
   padding-bottom: 0.5rem;
+}
+
+.post-video {
+  width: 100%;
 }
 
 .comment-container {

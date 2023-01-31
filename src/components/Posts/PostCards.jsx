@@ -46,7 +46,7 @@ export const PostCards = () => {
                 ""
               )}
               {post.post_hint === "hosted:video" ? (
-                <div>
+                <div className="media-container">
                   <video controls className="post-video">
                     <source
                       src={post.media.reddit_video.fallback_url}
